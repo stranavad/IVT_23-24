@@ -1,0 +1,13 @@
+12
+x S x x x x x x x x x x
+x . . x . . . . . . . x
+x x . x . . . x x . . x
+x . . x . x x x . x x x
+x . . . . . . x . . . x
+x x x x x x . x x x . x
+x . x . . . . x . x . C
+x . x . . x x x . x . x
+x . x . . . . . . x . x
+x . x . x . . . . x . x
+x . . . x . . . . . . x
+x x x x x x x x x x x x 
