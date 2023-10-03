@@ -1,4 +1,4 @@
-def get_user_input(message: str, input_type: str = "text") -> str | float:
+def get_user_input(message: str, input_type: str = "text") -> str | int | float:
     user_input = input(message)
 
     if input_type != 'text':

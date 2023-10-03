@@ -1,4 +1,5 @@
 import queue as queue_module
+from first_lesson.utils import get_user_input
 
 
 def run(capacity_a: int, capacity_b: int, target_a: int, target_b: int):
@@ -45,4 +46,10 @@ def run(capacity_a: int, capacity_b: int, target_a: int, target_b: int):
 
 
 if __name__ == '__main__':
-    run(3, 2, 1, 1)
+    capacity_a = get_user_input("Capacity A", "int")
+    capacity_b = get_user_input("Capacity B", "int")
+    target_a = get_user_input("Target A", "int")
+    target_b = get_user_input("Target B", "int")
+
+    if not (target_a > capacity_a or target_b > capacity_b or capacity_a < 0 or capacity_b < 0 or target_a < 0 or target_b < 0):
+        run(capacity_a, capacity_b, target_a, target_b)
