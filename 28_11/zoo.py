@@ -41,8 +41,9 @@ def do_some_recursion(animals, max_size, n, selected_animals):
 def run():
     data, zoo_size = get_input()
     used_animals: list[tuple[str, int, int]] = []
-    print(do_some_recursion(data, zoo_size, len(data), used_animals))
-    print(used_animals)
+    total_value, total_animals = do_some_recursion(data, zoo_size, len(data), used_animals)
+    print(f"Total value: {total_value}")
+    print(f"Total animals: {total_animals}")
 
 
 if __name__ == '__main__':
